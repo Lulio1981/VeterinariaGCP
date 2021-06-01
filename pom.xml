@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.source>11</maven.compiler.source>
-  <maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -47,7 +47,7 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.security.oauth/spring-security-oauth2 -->
-	<dependency>
+		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
 			<version>2.3.4.RELEASE</version>
@@ -74,18 +74,22 @@
 
 	</dependencies>
 
-<build>
-    <plugins>
-        <plugin>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-maven-plugin</artifactId>
- 		</plugin>
- 		
- 		<plugin>
-   			<groupId>com.google.cloud.tools</groupId>
-   			<artifactId>appengine-maven-plugin</artifactId>
-   			<version>2.2.0</version>
-		</plugin>
-    </plugins>
-</build>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>2.2.0</version>
+				<configuration>
+					<deploy.projectId>otra-315103</deploy.projectId>
+					<deploy.version>1.0</deploy.version>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
