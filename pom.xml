@@ -87,7 +87,7 @@
 				<version>2.0.0-rc2</version>
 				<configuration>
 					<deploy.projectId>otra-315103</deploy.projectId>
-					<deploy.version>1.0</deploy.version>
+					<deploy.version>1</deploy.version>
 				</configuration>
 			</plugin>
 		</plugins>
