@@ -1,4 +1,4 @@
-runtime: java11
+runtime: openjdk11
 env: flex
 
 handlers:
