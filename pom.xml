@@ -64,6 +64,14 @@
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 		</dependency>
+		<!-- Solo para JDK 9 o superior -->
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -76,7 +84,7 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
-				<version>2.2.0</version>
+				<version>2.0.0-rc2</version>
 				<configuration>
 					<deploy.projectId>otra-315103</deploy.projectId>
 					<deploy.version>1</deploy.version>
