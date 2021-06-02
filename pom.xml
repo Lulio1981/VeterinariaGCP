@@ -110,7 +110,7 @@
 			<stage.enableJarSplitting>true</stage.enableJarSplitting>
 			<deploy.stopPreviousVersion>true</deploy.stopPreviousVersion>
 			<cloudSdkPath>/usr/foo/path/to/cloudsdk</cloudSdkPath>
-			<deploy.projectId>otra-315103</deploy.projectId>
+			<deploy.projectId>pruebaspring-315622.</deploy.projectId>
 			<deploy.version>1</deploy.version>
 			</configuration>
 			</plugin>
