@@ -86,6 +86,9 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>2.0.0-rc2</version>
 				<configuration>
+					<stage.enableJarSplitting>true</stage.enableJarSplitting>
+					<deploy.stopPreviousVersion>true</deploy.stopPreviousVersion>
+					<cloudSdkPath>/usr/foo/path/to/cloudsdk</cloudSdkPath>
 					<deploy.projectId>otra-315103</deploy.projectId>
 					<deploy.version>1</deploy.version>
 				</configuration>
