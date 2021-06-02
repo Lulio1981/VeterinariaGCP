@@ -1,8 +1,2 @@
 runtime: java11
-env: flex
-
-service: default
-
-handlers:
-- url: /.*
-  script: this field is required, but ignoredgnored
+instance_class: F2
