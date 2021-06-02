@@ -1,4 +1,4 @@
-runtime: custom
+runtime: java11
 env: flex
 
 handlers:
